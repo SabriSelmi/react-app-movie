@@ -1,0 +1,39 @@
+.drawrer{
+    height: 100%;
+    background-color: lightblue;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-out;
+    z-index:20001;
+   
+}
+.drawrer ul{
+    list-style:none;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.drawrer li{
+    margin:0.5rem;
+}
+
+.drawrer a{
+    text-decoration: none;
+}
+
+.drawrer a:hover,
+.drawrer a:active{
+    color:orange;
+}
+
+.drawrer.open{
+    transform:translateY(0)
+}
+

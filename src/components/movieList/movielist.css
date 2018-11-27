@@ -1,0 +1,61 @@
+
+
+.imag img{
+   
+    box-sizing: border-box;
+    border-radius: 8%;
+    
+   
+    
+    
+}
+.lien{
+    text-align: center;
+}
+
+
+.text-label{
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+    
+}
+
+
+.imag:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+    
+}
+.imag{
+    text-align: center;
+    cursor: pointer;
+    width:300px;
+    margin-left:10%;
+    margin-top:10%;
+    position:relative;
+   }
+  .description{
+      position: absolute;
+      top:0;
+      left:0;
+      padding:10%;
+      width:300px;
+      height: 300px;
+      opacity: 0;
+      box-sizing: border-box;
+      border-radius: 8%;
+  } 
+  .description:hover{
+    display: block;
+    opacity: 1;
+    color:white;
+    background-color:rgba(0, 0, 0, 0.89);
+  }
+.label:hover{
+    
+    
+    background-color: #3174cc;
+    
+    
+}
