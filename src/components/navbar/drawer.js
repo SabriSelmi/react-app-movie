@@ -1,5 +1,6 @@
 import React from 'react';
 import './drawer.css'
+import {FormInline} from 'mdbreact';
 
 
 const Drawrer=props=>{
@@ -17,14 +18,19 @@ const Drawrer=props=>{
 </button>
     <ul>
     
-        <li><a href="/">About us</a></li>
-        <li><a href="/">Career</a></li>
-        <li><a href="/">Department</a></li>
-        <li><a href="/">Marketing & PR</a></li>
-        <li><a href="/">Customer success & sales</a></li>
-        <li><a href="/">IT, Product, Design & UX</a></li>
-        <li><a href="/">Finance & Administration</a></li>
-        <li><a href="/">HR & more</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/">Most Watched</a></li>
+        <li><FormInline waves>
+                  
+                  <div className="md-form my-0">
+                    <input
+                      className="form-control mr-sm-2"
+                      type="text"
+                      placeholder="search with movie name"
+                      aria-label="Search"/>
+                    <button className="btn bg-danger">Search</button>
+                  </div></FormInline></li>
+       
     </ul>
 </nav>
     );

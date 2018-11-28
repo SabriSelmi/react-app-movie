@@ -2,6 +2,7 @@ import React,{Component} from "react";
 import Modal from './modal';
 import ModalPage from './modal-mdb'
 import "./movielist.css";
+import LoadingHOC from '../spinner/spinner'
 
 
 class MovieList extends Component{
@@ -53,4 +54,4 @@ return(
 )
 }
 }
-export default MovieList;
+export default LoadingHOC(MovieList);
